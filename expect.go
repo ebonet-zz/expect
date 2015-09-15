@@ -1,4 +1,4 @@
-package goexpect
+package expect
 
 import "testing"
 
