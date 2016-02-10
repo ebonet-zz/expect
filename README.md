@@ -12,3 +12,8 @@ There are other libraries that do something similar (such as https://github.com/
 * Aproximate
 * Err
 * NoErr
+
+## Change log
+
+* Version 0.1.0 
+    - Print test lines where errors occur (keeping signatures and behavior).

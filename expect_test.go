@@ -1,6 +1,8 @@
 package expect
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestExpectCondition(t *testing.T) {
 
