@@ -4,7 +4,6 @@ import (
 	"testing"
 	"runtime"
 	"strings"
-	"fmt"
 )
 
 func Condition(t *testing.T, condition bool, description string) {
