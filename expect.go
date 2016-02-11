@@ -59,7 +59,7 @@ func In(t *testing.T, theMap map[interface{}]interface{}, key interface{}, descr
 
 func fail(t *testing.T, message string, params ...interface{}) {
 	file, line := getLocation()
-	t.Errorf("[TEST ERROR {%s:d}] "+message,
+	t.Errorf("[TEST ERROR {%s:%d}] "+message,
 		append([]interface{}{file, line}, params...)...)
 }
 
